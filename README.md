@@ -7,6 +7,7 @@ This file is for design and management of link budget of Indoor distributed cont
 1. [Introduction](#md-header2-introduction)
 2. [User Manual](#md-header2-user-manual)
     1. [Set up visio file](#md-header3-set-up)
+    2. [How To Use](#md-header3-how-to-use)
 
 <h2 id="md-header2-introduction">Introduction </h2>
 The main problem in indoor DCS system is the complexity in calculation to reach a balance of power output in every antenna. Similar to every distrubuted system (e.g. Electiricty, Water distrubuted system), the system has a source to distrubute to every descending separation point (couplers) and eventually reach the 
@@ -18,11 +19,17 @@ This project focus on calculation of RSRP output from antenna by subtracting the
 <h2 id="md-header2-user-manual"> User Manual </h2>
 
 <h3 id="md-header3-set-up"> Set up visio file </h3>
-If you already have a visio file with this code, just delete the content in each page. The document is ready for use. <br><br>
+If you already have a visio file with this code, just delete all contents in the document. The document is ready for use. <br><br>
 
 1. For setting up visio document, you need to open Visio first. Press Development tab in toolbar and you can see Visual Basic Editor (VBE). Press it to enter VBE.
 <br>___image required___
-2. Download all files from this project, drag all VBA files to VB Editor as follow:
+2. Download all files from this project, drag all VBA files (___.bas, .frm, .cls file only___) to VB Editor as follow:
 <br>___image required___
-3. 
+3. Close VB Editor. Back to Visio file.
+4. Choose ___File >>> Shapes >>> Open Stensils...,___ a file dialog will pop up. Choose ___.vss file___ in this project.
+<br>___image required___
+5. You can see the stensil with shapes show up. It is recommended to put all shapes to document stensil. The document is set up.<br>
+
+<h3 id="md-header3-how-to-use"> How To Use</h3>
+
 
