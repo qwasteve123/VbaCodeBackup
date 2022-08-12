@@ -7,7 +7,8 @@ This file is for design and management of link budget of Indoor distributed cont
 1. [Introduction](#md-header2-introduction)
 2. [User Manual](#md-header2-user-manual)
     1. [Set up visio file](#md-header3-set-up)
-    2. [How To Use](#md-header3-how-to-use)
+    2. [(Optional) Set up fast key for macro](#md-header3-fast-key)
+    3. [How To Use](#md-header3-how-to-use)
 
 <h2 id="md-header2-introduction">Introduction </h2>
 The main problem in indoor DCS system is the complexity in calculation to reach a balance of power output in every antenna. Similar to every distrubuted system (e.g. Electiricty, Water distrubuted system), the system has a source to distrubute to every descending separation point (couplers) and eventually reach the 
@@ -28,8 +29,18 @@ If you already have a visio file with this code, just delete all contents in the
 3. Close VB Editor. Back to Visio file.
 4. Choose ___File >>> Shapes >>> Open Stensils...,___ a file dialog will pop up. Choose ___.vss file___ in this project.
 <br>___image required___
-5. You can see the stensil with shapes show up. It is recommended to put all shapes to document stensil. The document is set up.<br>
+5. You can see the stensil with shapes shown up. It is recommended to put all shapes to document stensil. The document is set up.<br>
+<br>___check if need to make dynamic connector___
+
+<h3 id="md-header3-fast-key"> (Optional) Set up fast key for macro</h3>
+1. Press run macro, from __Macro in:__ dropdown list, select **A_main** 
+2. Select __ShowLinkBudget__ from list, Press __Option...__ to assign shortcut key. Press ___Shift + D___ and press __Ok__.<br>
+3. Select __ExportLinkBudget__ from list, Press __Option...__ to assign shortcut key. Press ___Shift + F___ and press __Ok__.<br>
+4. Back to __Macro in:__ dropdown list, select __DC_AutoNumbering__<br>
+5. Select __ActivateForm__ from list, Press __Option...__ to assign shortcut key. Press __Shift + W__ and press __Ok__. <br>
 
 <h3 id="md-header3-how-to-use"> How To Use</h3>
-
+2. Press and drag ___Start Block___ to your page.
+<br>___image required___
+3. Press and drag ___Start Block___ to your page
 
