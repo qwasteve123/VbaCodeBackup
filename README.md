@@ -8,7 +8,9 @@ This file is for design and management of link budget of Indoor distributed cont
 2. [User Manual](#md-header2-user-manual)
     1. [Set up visio file](#md-header3-set-up)
     2. [(Optional) Set up fast key for macro](#md-header3-fast-key)
-    3. [How To Use It](#md-header3-how-to-use)
+    3. [How To Use It](#md-header3-how-to-draw)
+    4. [Edit Shape in Shape Data](#md-header3-edit-shape-data)
+    5. [Fast Naming of Shapes](#md-header3-fast-naming)
 
 <h2 id="md-header2-introduction">Introduction </h2>
 The main problem in indoor DCS system is the complexity in calculation to reach a balance of power output in every antenna. The system has a source to distrubute to every descending separation point (couplers) and eventually reach the output (antenna). The complexity of DCS system design comes from the limitation in construction site, mainly the pathway restricted and the antenna location pre-requested in tender by clients. To ensure the calculations reach the demanded power output (RSRP), link budget calculation is required. Without automation, 
@@ -42,14 +44,25 @@ If you already have a visio file with this code, just delete all contents in the
 <br>___image required___
 5. Select __ActivateForm__ from list, Press __Option...__ to assign shortcut key. Press __Shift + W__ and press __Ok__. 
 
-<h3 id="md-header3-how-to-use"> How To Use It</h3>
+<h3 id="md-header3-how-to-draw"> How To Draw Schametic Diagram</h3>
 
 1. The component shapes follow the conventional shape of couplers, splitter and antennae in schematic diagram. DCS system start from ___Start Block___ to ___Coupler/
 2 way splitter/ 3 way splitter___ to ___Antenna___ and linked by ___Feeder cable___ in connection points. Connection method is based on schematic drawing.
 2. To place shapes, press and drag shape from ___Document Stensil___ to your page.
 <br>___image required___
 3. To connect shapes, press ___Ctrl + 3___ to call dyamic connector and connect each shape.
-4. To change the choice of couplers, ___right click___ on shape and select ___shape data___. Change coupler in ___coupling loss___ dropdown list.
+ <br>___image required___
+ 
+ <h3 id="md-header3-edit-shape-data"> Edit Shapes in Shape Data</h3>
+ 
+1. To change the choice of couplers, right click on shape and click ___shape data___. Change coupler in ___coupling loss___ dropdown list.
 <br>___image required___
-5. To change the choice of feeder cable, ___right click___ on shape and select ___shape data___. Change feeder cable in ___feeder type___ dropdown list.
+2. To change the choice of feeder cable, right click on shape and click ___shape data___. Change feeder cable in ___feeder type___ dropdown list.
 <br>___image required___
+3. To change the antenna gain, right click on master shape in document stensil, click ___edit master___ . After the master shape is opened,right click on master shape and click ___shape data___. Change your antenna gain.
+<br>___image required___
+4. To change shape floor and item no. shown on shape text, edit __shape data___ window. Be careful that item no. can only accept ___integer___ while floor can be any text (string datatype). For more convinient method, read section [Fast Naming of Shapes](#md-header3-fast-naming)
+<br>___image required___
+
+[Fast Naming of Shapes](#md-header3-fast-naming)
+ <h3 id="md-header3-edit-shape-data"> Edit Shapes in Shape Data</h3>
