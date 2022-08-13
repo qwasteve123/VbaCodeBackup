@@ -7,7 +7,7 @@ This file is for design and management of link budget of Indoor distributed cont
 1. [Introduction](#md-header2-introduction)
 2. [User Manual](#md-header2-user-manual)
     1. [Set up visio file](#md-header3-set-up)
-    2. [(Optional) Set up fast key for macro](#md-header3-fast-key)
+    2. [(Optional) Set up shortcut key for macro](#md-header3-fast-key)
     3. [How To Use It](#md-header3-how-to-draw)
     4. [Edit Shape in Shape Data](#md-header3-edit-shape-data)
     5. [Fast Naming of Shapes](#md-header3-fast-naming)
@@ -36,7 +36,7 @@ If you already have a visio file with this code, just delete all contents in the
 5. You can see the stensil with shapes shown up. It is recommended to put all shapes to document stensil. The document is set up.<br>
 <br>___check if need to make dynamic connector___
 
-<h3 id="md-header3-fast-key"> (Optional) Set up fast key for macro </h3>
+<h3 id="md-header3-fast-key"> (Optional) Set up shortcut for macro </h3>
 
 1. Press run macro, from ___Macro in:___ dropdown list, select **A_main**
 <br>___image required___
