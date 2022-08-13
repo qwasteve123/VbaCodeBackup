@@ -11,6 +11,8 @@ This file is for design and management of link budget of Indoor distributed cont
     3. [How To Use It](#md-header3-how-to-draw)
     4. [Edit Shape in Shape Data](#md-header3-edit-shape-data)
     5. [Fast Naming of Shapes](#md-header3-fast-naming)
+    6. [Change Label Format](#md-header3-label-format)
+
 
 <h2 id="md-header2-introduction">Introduction </h2>
 The main problem in indoor DCS system is the complexity in calculation to reach a balance of power output in every antenna. The system has a source to distrubute to every descending separation point (couplers) and eventually reach the output (antenna). The complexity of DCS system design comes from the limitation in construction site, mainly the pathway restricted and the antenna location pre-requested in tender by clients. To ensure the calculations reach the demanded power output (RSRP), link budget calculation is required. Without automation, 
@@ -72,6 +74,8 @@ If you already have a visio file with this code, just delete all contents in the
       To change the number added to shapes, enter new number in the textbox on left and click ___Change Number___ and continue clicking shapes.
      2. Sometimes you need to update all shapes in increment of 1. In this situation, Press ___Ctrl + Shift + W___ to active subroutine, Go to tab ___Add number___,
       Enter the increment you want and press ___Selections Add___.
-3.
+
+<h3 id="md-header3-label-format"> Change Label Format</h3>
+This project consists of the 
  
  
