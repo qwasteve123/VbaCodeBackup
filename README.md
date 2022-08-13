@@ -64,5 +64,14 @@ If you already have a visio file with this code, just delete all contents in the
 4. To change shape floor and item no. shown on shape text, edit __shape data___ window. Be careful that item no. can only accept ___integer___ while floor can be any text (string datatype). For more convinient method, read section [Fast Naming of Shapes](#md-header3-fast-naming)
 <br>___image required___
 
-[Fast Naming of Shapes](#md-header3-fast-naming)
- <h3 id="md-header3-edit-shape-data"> Edit Shapes in Shape Data</h3>
+ <h3 id="md-header3-fast-naming"> Fast Naming of Shapes</h3>
+ 
+1. To change floor of multiple shapes, select multiple shapes, right click on shape and click ___shape data___ to change floor. Do not include shape that without floor input in your selection otherwise floor properties will not be shown in shape data window.
+2. There are two methods to update item no. of shape:
+     1. To name shapes item no. in consecutive order ( 1,2,3,...), Press ___Ctrl + Shift + W___ to active subroutine, ActiveForm. (you can also run it in ___run macro___). Go to tab ___Consecutive___, Press ___Start___ button to start naming. Click the shape you want to name, the number will increase in increment of 1.  
+      To change the number added to shapes, enter new number in the textbox on left and click ___Change Number___ and continue clicking shapes.
+     2. Sometimes you need to update all shapes in increment of 1. In this situation, Press ___Ctrl + Shift + W___ to active subroutine, Go to tab ___Add number___,
+      Enter the increment you want and press ___Selections Add___.
+3.
+ 
+ 
