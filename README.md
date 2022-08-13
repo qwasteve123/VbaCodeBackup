@@ -12,6 +12,7 @@ This file is for design and management of link budget of Indoor distributed cont
     4. [Edit Shape in Shape Data](#md-header3-edit-shape-data)
     5. [Fast Naming of Shapes](#md-header3-fast-naming)
     6. [Change Label Format](#md-header3-label-format)
+    7. [Show or Export Link Budget](#md-header3-link-bud)
 
 
 <h2 id="md-header2-introduction">Introduction </h2>
@@ -37,7 +38,7 @@ If you already have a visio file with this code, just delete all contents in the
 
 <h3 id="md-header3-fast-key"> (Optional) Set up fast key for macro </h3>
 
-1. Press run macro, from ___Macro in:___ dropdown list, select **A_main** 
+1. Press run macro, from ___Macro in:___ dropdown list, select **A_main**
 <br>___image required___
 2. Select __ShowLinkBudget__ from list, Press __Option...__ to assign shortcut key. Press ___Shift + D___ and press __Ok__.
 <br>___image required___
@@ -70,12 +71,19 @@ If you already have a visio file with this code, just delete all contents in the
  
 1. To change floor of multiple shapes, select multiple shapes, right click on shape and click ___shape data___ to change floor. Do not include shape that without floor input in your selection otherwise floor properties will not be shown in shape data window.
 2. There are two methods to update item no. of shape:
-     1. To name shapes item no. in consecutive order ( 1,2,3,...), Press ___Ctrl + Shift + W___ to active subroutine, ActiveForm. (you can also run it in ___run macro___). Go to tab ___Consecutive___, Press ___Start___ button to start naming. Click the shape you want to name, the number will increase in increment of 1.  
+     1. To name shapes item no. in consecutive order ( 1,2,3,...), Press ___Ctrl + Shift + W___ to active subroutine, ActiveForm. (you can also run it in ___run       macro___). Go to tab ___Consecutive___, Press ___Start___ button to start naming. Click the shape you want to name, the number will increase in increment of 1.  
       To change the number added to shapes, enter new number in the textbox on left and click ___Change Number___ and continue clicking shapes.
+      <br>___image required___
      2. Sometimes you need to update all shapes in increment of 1. In this situation, Press ___Ctrl + Shift + W___ to active subroutine, Go to tab ___Add number___,
       Enter the increment you want and press ___Selections Add___.
+      <br>___image required___
 
 <h3 id="md-header3-label-format"> Change Label Format</h3>
-This project consists of the 
+This project consists of the two label format, Normal label format and Lift label format. To switch between two label format, select multiple shapes, choose to ___Lift label format___ and click ___Change Label Format___.
+
+<br>___image required___
+
+ <h3 id="md-header3-link-bud"> Show or Export Link Budget</h3>
+
  
  
