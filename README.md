@@ -13,7 +13,7 @@ This file is for design and management of link budget of Indoor distributed cont
     5. [Fast Naming of Shapes](#md-header3-fast-naming)
     6. [Change Label Format](#md-header3-label-format)
     7. [Show or Export Link Budget](#md-header3-link-bud)
-
+    8. [Find Shape Location in Visio](#md-header3-search-for-shape)
 
 <h2 id="md-header2-introduction">Introduction </h2>
 The main problem in indoor DCS system is the complexity in calculation to reach a balance of power output in every antenna. The system has a source to distrubute to every descending separation point (couplers) and eventually reach the output (antenna). The complexity of DCS system design comes from the limitation in construction site, mainly the pathway restricted and the antenna location pre-requested in tender by clients. To ensure the calculations reach the demanded power output (RSRP), link budget calculation is required. Without automation, 
@@ -79,11 +79,17 @@ If you already have a visio file with this code, just delete all contents in the
       <br>___image required___
 
 <h3 id="md-header3-label-format"> Change Label Format</h3>
+
 This project consists of the two label format, Normal label format and Lift label format. To switch between two label format, select multiple shapes, choose to ___Lift label format___ and click ___Change Label Format___.
 
 <br>___image required___
 
  <h3 id="md-header3-link-bud"> Show or Export Link Budget</h3>
+ 
+Press ___Ctrl + Shift + W___ to active, Go to tab ___Link bud___. Choose ___Show Link Budget___ or ___Export to excel___.
+ 
+ <h3 id="md-header3-search-for-shape"> Find Shape Location in Visio </h3>
+ 
+ 1. 
+ 
 
- 
- 
