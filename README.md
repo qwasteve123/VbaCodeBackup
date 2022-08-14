@@ -114,7 +114,21 @@ Press ___Ctrl + Shift + W___ to active userform, Go to tab ___Find Shape___. Sel
  1. __Right click___ any page tab, and click ___Insert page...___ to open Page Setup window.
  2. In Page properties, choose page type as ___Background___, select ___Millimeters___ in Measurement units dropdown list. A background page is inserted.
  3. Convert your construction layout from pdf/ dwg file to any picture files e.g. .jpg file. (higher quality recommended)
- 4. Insert construction layout picture to background. Resize
+ 4. Insert construction layout picture to background. Resize the picture relative to the background page. The background layout page is set up.
  
- 1. Drag shape ___Layout Scale___ to your page. Align shape with any dimensions in 
+ <br>___image required___
+ 
+To find the scale of Visio page to construction layout:
+ 1. Drag shape ___Layout Scale___ to your page. Align shape with any dimensions marked in the layout. (longer dimension is recommend to minimze measurement error)
+ 2.Go to Shape data of the shape, enter the dimension marked in the layout. Scale is set up.
+ 
+ <br>___image required___
+ 
+ To apply the actual length to connectors:
+ 1. Press ___Ctrl + Shift + W___ to active userform, Go to tab ___Route___. Select ___all___ connectors which you want to change its length, click ___Add Length___ button in userform. 
+ 
+ <br>___image required___
+ 
+ 2. The ___Layout Scale___ only apply in one page. Each layout page requires to add a ___Layout Scale___.
+
 
