@@ -15,7 +15,7 @@ This file is for design and management of link budget of Indoor distributed cont
     7. [Show or Export Link Budget](#md-header3-link-bud)
     8. [Find Shape Location in Visio](#md-header3-search-for-shape)
     9. [Change Shape of Connector (for layout drawing)](#md-header3-reoute)
-    10. [Measure Length of Connector (for layout drawing)]<h3 id="md-header3-to-length">
+    10. [Measure Length of Connector (for layout drawing)]#md-header3-to-length>
 
 <h2 id="md-header2-introduction">Introduction </h2>
 The main problem in indoor DCS system is the complexity in calculation to reach a balance of power output in every antenna. The system has a source to distrubute to every descending separation point (couplers) and eventually reach the output (antenna). The complexity of DCS system design comes from the limitation in construction site, mainly the pathway restricted and the antenna location pre-requested in tender by clients. To ensure the calculations reach the demanded power output (RSRP), link budget calculation is required. Without automation, 
