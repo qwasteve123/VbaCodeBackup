@@ -14,6 +14,8 @@ This file is for design and management of link budget of Indoor distributed cont
     6. [Change Label Format](#md-header3-label-format)
     7. [Show or Export Link Budget](#md-header3-link-bud)
     8. [Find Shape Location in Visio](#md-header3-search-for-shape)
+    9. [Change Shape of Connector (for layout drawing)](#md-header3-reoute)
+    10. [Measure Length of Connector (for layout drawing)]<h3 id="md-header3-to-length">
 
 <h2 id="md-header2-introduction">Introduction </h2>
 The main problem in indoor DCS system is the complexity in calculation to reach a balance of power output in every antenna. The system has a source to distrubute to every descending separation point (couplers) and eventually reach the output (antenna). The complexity of DCS system design comes from the limitation in construction site, mainly the pathway restricted and the antenna location pre-requested in tender by clients. To ensure the calculations reach the demanded power output (RSRP), link budget calculation is required. Without automation, 
@@ -74,7 +76,7 @@ If you already have a visio file with this code, just delete all contents in the
      1. To name shapes item no. in consecutive order ( 1,2,3,...), Press ___Ctrl + Shift + W___ to active userform. (you can also run it in ___run       macro___). Go to tab ___Consecutive___, Press ___Start___ button to start naming. Click the shape you want to name, the number will increase in increment of 1.  
       To change the number added to shapes, enter new number in the textbox on left and click ___Change Number___ and continue clicking shapes.
       <br>___image required___
-     2. Sometimes you need to update all shapes in increment of 1. In this situation, Press ___Ctrl + Shift + W___ to active subroutine, Go to tab ___Add number___,
+     2. Sometimes you need to update all shapes in increment of 1. In this situation, Press ___Ctrl + Shift + W___ to active userform, Go to tab ___Add number___,
       Enter the increment you want and press ___Selections Add___.
       <br>___image required___
 
@@ -90,6 +92,29 @@ Press ___Ctrl + Shift + W___ to active, Go to tab ___Link bud___. Choose ___Show
  
  <h3 id="md-header3-search-for-shape"> Find Shape Location in Visio </h3>
  
- 1. 
+Press ___Ctrl + Shift + W___ to active userform, Go to tab ___Find Shape___. Select the ___Floor___, ___Component Type___. IF the component type is feeder cable, select ___Cable Type___. Click find. The target components are marked in red circles in visio.
  
+<br>___image required___
+
+<h3 id="md-header3-reroute"> Change Shape of Connector (for layout drawing) </h3>
+
+1. Press ___Ctrl + Shift + W___ to active userform, Go to tab ___Route___. Select a connector in your page, click ___Reroute___ to start changing connector's shape. Click on page to change connector's shape.
+
+<br>___image required___
+
+2. To amend the connector shape, select a connector in your page, click ___Undo-reroute___ to return the orignial shape of connector (default routing by Visio).
+
+<br>___image required___
+
+3. The reroute function is used in layout drawing for adapt the curved wall or irregular shape in construction drawing and make layout drawing possible in Visio. Length measurement function is also equipped for direct measurement of feeder cable while drawing DCS system layout. To further automate the link budget design process, the layout will auto-generate and auto-update the schematic in the future.
+
+<h3 id="md-header3-to-length"> Measure Length of Connector (for layout drawing) </h3>
+
+ This function is to input length to connector with scale to construction layout. A few steps are required to set up page for finding sacle of visio page to construction layout:  
+ 1. __Right click___ any page tab, and click ___Insert page...___ to open Page Setup window.
+ 2. In Page properties, choose page type as ___Background___, select ___Millimeters___ in Measurement units dropdown list. A background page is inserted.
+ 3. Convert your construction layout from pdf/ dwg file to any picture files e.g. .jpg file. (higher quality recommended)
+ 4. Insert construction layout picture to background. Resize
+ 
+ 1. Drag shape ___Layout Scale___ to your page. Align shape with any dimensions in 
 
